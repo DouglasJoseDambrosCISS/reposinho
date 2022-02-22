@@ -872,6 +872,11 @@ GO
 COMMIT
 GO
 
+Lista
+1. asdas as 
+2. aSD6F5 1DF56G4 0G560H FG
+3.AS AS MNUISDHF UDS 
+
 
 /*
 
