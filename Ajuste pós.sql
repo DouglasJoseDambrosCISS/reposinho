@@ -19,6 +19,7 @@ BEGIN
     DECLARE D_IDCODBARPROD      DECIMAL(14,0);
     DECLARE I_COUNT             INTEGER;
     DECLARE V_COMMIT            VARCHAR(6);
+	Essa parte eu mudei mesmo e esta certa
 
     SET V_COMMIT = 'COMMIT';
 
