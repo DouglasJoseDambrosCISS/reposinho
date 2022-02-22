@@ -1,6 +1,6 @@
 -- Oto titulo
 -----------------------------------------------------------------------------------------------
--- Sem registro na POLITICA_PRECO_PRODUTO. Noxxa, esse é o titulo. Não se confundir
+-- Sem registro na POLITICA_PRECO_PRODUTO. Noxxa, esse é o titulo. Não se confundir | Agora esse é o titulo certo
 -----------------------------------------------------------------------------------------------
 INSERT INTO DBA.POLITICA_PRECO_PRODUTO (        IDPRODUTO,        IDSUBPRODUTO,        IDEMPRESA,        VALPRECOVAREJO,        DTALTERACAO,        PERMARGEMVAREJO,        VALCUSTOREPOS,        CUSTOGERENCIAL,        CUSTONOTAFISCAL) SELECT         PRODUTO_GRADE.IDPRODUTO,         PRODUTO_GRADE.IDSUBPRODUTO,         EMPRESA.IDEMPRESA AS IDEMPRESA,         0 AS VALPRECOVAREJO,         NOW() AS DTALTERACAO,         0 AS PERMARGEMVAREJO,         0 AS VALCUSTOREPOS,         0 AS CUSTOGERENCIAL,         0 AS CUSTONOTAFISCAL FROM        PRODUTO_GRADE,        EMPRESA WHERE NOT EXISTS( SELECT 1 FROM POLITICA_PRECO_PRODUTO WHERE POLITICA_PRECO_PRODUTO.IDEMPRESA = EMPRESA.IDEMPRESA AND POLITICA_PRECO_PRODUTO.IDSUBPRODUTO = PRODUTO_GRADE.IDSUBPRODUTO )
 GO
