@@ -876,7 +876,7 @@ GO
 /*
 
  * Histórico de alterações
-        - 22/08/2018 -          | Ultima alteração;
+        - 22/08/2018 -          | ULTIMA ALTERACAO;
         - 21/08/2019 - 1.1      | Versionado script e inclusão do rodapé; Criado ajuste "CODBAR" (Replicar o IDCORBARPROD para o CODBAR, quando este não existir ou quando for diferente);
         - 27/08/2019 - 1.2      | Alteração na seção "CODBAR", criando uma estrutura de SP para efetuar o ajuste. Ajustar a seção "Códgio de barras da unidade tributária" para replicar somente EANs de tamanho maior ou igual a 8, pois estes campos devem receber o código de barras válido da menor unidade de medida, e códigos menores que 8 claramente não tem GTIN válido, por este motivo a Sefaz não aprova a nota;
         - 15/10/2019 - 1.3      | Criada a seção "Ajustar contador da CLIENTE_OBSERVACAO_HISTORICO";
