@@ -888,7 +888,7 @@ GO
         - 26/02/2021 - 1.9      | Alteração do ajustes de enters das especificações técnicas mudando o "CHR(10)" para "x'0D' || x'0A'". Ajustes na identação do script. Remoção do ajuste de enters na coluna COMENTARIO da tabela CLIENTE_FORNECEDOR;
         - 16/03/2021 - 2.0      | Criada a seção "Remover ponto e virgula no final dos e-mails";
         - 18/03/2021 - 2.1      | Alteração na seção "Ajuste dos enters" adicionando tratamento ao campo descrição das propriedades de e-commerce;
-        - 24/03/2021 - 2.2      | Criada a seção "Ajuste dos tabs".
+        - 24/03/2021 - 2.2      | Criada a seção "Ajuste dos tabs". Este é o log 2.2
 
  * Melhorias e correções para aplicar
         - Verificar se existe uma SP mais atualizada do CODCEST;
