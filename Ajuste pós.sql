@@ -17,6 +17,7 @@ BEGIN
     DECLARE I_IDPRODUTO         INTEGER;
     DECLARE I_IDSUBPRODUTO      INTEGER;
     DECLARE D_IDCODBARPROD      DECIMAL(14,0);
+	Fiz essa alteração temporária aqui, mas ainda não terminei
     DECLARE I_COUNT             INTEGER;
     DECLARE V_COMMIT            VARCHAR(6);
 	Essa parte eu mudei mesmo e esta certa
