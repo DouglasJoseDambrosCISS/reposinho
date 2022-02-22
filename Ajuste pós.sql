@@ -1,3 +1,4 @@
+Estou adicionando isso dentro da branch titulo
 -- Oto titulo
 -----------------------------------------------------------------------------------------------
 -- Sem registro na POLITICA_PRECO_PRODUTO. Noxxa, esse é o titulo. Não se confundir | Agora esse é o titulo certo
